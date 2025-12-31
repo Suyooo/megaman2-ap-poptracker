@@ -25,9 +25,7 @@
             },
             {
                 "name": "Air Man",
-                "access_rules": [
-                    "air_man_1"
-                ],
+                "access_rules": ["air_man_1"],
                 "sections": [
                     {
                         "name": "Air Man",
@@ -52,9 +50,7 @@
             },
             {
                 "name": "Quick Man",
-                "access_rules": [
-                    "quick_man_1,[time_stopper]"
-                ],
+                "access_rules": ["quick_man_1,[time_stopper]"],
                 "sections": [
                     {
                         "name": "1-Up 1",
@@ -115,9 +111,7 @@
             },
             {
                 "name": "Heat Man",
-                "access_rules": [
-                    "heat_man_1"
-                ],
+                "access_rules": ["heat_man_1"],
                 "sections": [
                     {
                         "name": "1-Up",
@@ -147,9 +141,7 @@
             },
             {
                 "name": "Wood Man",
-                "access_rules": [
-                    "wood_man_1"
-                ],
+                "access_rules": ["wood_man_1"],
                 "sections": [
                     {
                         "name": "Wood Man",
@@ -170,9 +162,7 @@
             },
             {
                 "name": "Metal Man",
-                "access_rules": [
-                    "metal_man_1"
-                ],
+                "access_rules": ["metal_man_1"],
                 "sections": [
                     {
                         "name": "E-Tank 1",
@@ -208,9 +198,7 @@
             },
             {
                 "name": "Flash Man",
-                "access_rules": [
-                    "flash_man_1"
-                ],
+                "access_rules": ["flash_man_1"],
                 "sections": [
                     {
                         "name": "Health Energy 1",
@@ -243,7 +231,7 @@
                         "access_rules": [],
                         "visibility_rules": ["etanks_on"]
                     },
-                    
+
                     {
                         "name": "Flash Man",
                         "access_rules": []
@@ -267,9 +255,7 @@
             },
             {
                 "name": "Crash Man",
-                "access_rules": [
-                    "crash_man_1"
-                ],
+                "access_rules": ["crash_man_1"],
                 "sections": [
                     {
                         "name": "Health Energy",
@@ -286,7 +272,7 @@
                         "access_rules": [],
                         "visibility_rules": ["etanks_on"]
                     },
-                    
+
                     {
                         "name": "Crash Man",
                         "access_rules": []
@@ -333,7 +319,7 @@
             },
             {
                 "name": "Dr. Wily 2",
-                "access_rules": ["wily_1_cleared, item_2" ],
+                "access_rules": ["wily_1_cleared, item_2"],
                 "sections": [
                     {
                         "name": "Weapon Energy 1",
@@ -434,15 +420,14 @@
                 "sections": [
                     {
                         "name": "E-Tank",
-                        "access_rules": [],
+                        "access_rules": ["crash_bomber"],
                         "visibility_rules": ["etanks_on"]
                     },
                     {
                         "name": "Weapon Energy 1",
-                        "access_rules": [],
+                        "access_rules": ["crash_bomber"],
                         "visibility_rules": ["energypickups_on"]
                     },
-                    
                     {
                         "name": "Weapon Energy 2",
                         "access_rules": [],
@@ -1045,7 +1030,7 @@
                     }
                 ]
             },
-            
+
             {
                 "name": "Boss",
                 "sections": [
